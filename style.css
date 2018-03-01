@@ -1,0 +1,176 @@
+#head h1{
+color:white;
+font-weight:bold;
+font-family:verdana;
+padding:0 100px;
+padding-top:400px;
+}
+#head h2{
+color:white;
+font-weight:bold;
+font-family:verdana;
+padding:0 100px;
+}
+header{
+	height:730px;
+	width:100%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bg.jpeg); 
+    background-size:100%;
+    border-radius: 10px;
+}
+#p{
+	margin-left:100px;
+}
+.buttons a{
+	text-decoration: none;
+	color:white;
+	font-weight:bold;
+	margin:10px;
+	font-size: 20px;
+	border-radius: 10px;
+	padding:10px;
+	border:2px solid lightblue;
+}
+#p:hover{
+	font-size:25px;
+	background:orange;
+}
+#c:hover{
+	font-size:25px;
+	background:orange;
+}
+#m:hover{
+	font-size:25px;
+	background:orange;
+}
+#b:hover{
+	font-size:25px;
+	background:orange;
+}
+#navbar{
+	float:right;
+}
+#navbar li{
+	transition: all 0.5s ease-in;
+	display: inline-block;
+	list-style: none;
+	margin:10px;
+	padding:20px;
+}
+#navbar li a{
+	padding:10px 0;
+	color:white;
+	font-size:20px;
+	font-weight: bold;
+	float:left;
+	text-decoration: none;
+}
+#navbar li a:hover{
+	color:orange;
+	transition:all 0.5s ease-in;
+	border-bottom:2px solid orange;
+	padding:20px 0;
+}
+.motto{
+	margin:20px;
+	border-bottom:2px solid orange;
+}
+.motto h1{
+	border-bottom:2px solid orange;
+	font-weight: strong;
+	padding:10px;
+	color:orange;
+}
+.aboutme{
+	margin:20px;
+}
+.aboutme h1{
+	color:red;
+	border-bottom:2px solid red;
+	font-weight: strong;
+	padding:10px;
+}
+.aboutme img{
+	border-right: 2px solid black;
+	padding-right: 10%;
+	height:100%;
+	width:100%;
+}
+.contactme i{
+	padding-left:5px;
+	font-size:5em;
+	color:green;
+}
+.contactme p{
+	font-size:25px;
+}
+#subhead{
+	color:green;
+	border-top:2px solid brown;
+	border-bottom:2px solid green;
+	margin:10px;
+	margin-top:20px;
+}
+.contactme{
+	padding:20px;
+	border-bottom:2px solid green;
+}
+body{
+	background:url(bg4.jpg);
+	background-size:100%;
+}
+.form{
+	background:silver;
+	border-radius: 0;
+}
+.form a{
+	color:brown;
+}
+.form a input{
+	background:none;
+	border-radius: 10px;
+	width:100%;
+}
+.form a input:hover{
+	background: brown;
+	color:white;
+	font-size:25px;
+	transition: all 0.5s ease-in;
+}
+.form td{
+	color:brown;
+	font-weight:bold;
+	font-size:15px;
+	padding:5px;
+}
+.form input{
+	border:none;
+	border-radius:10px;
+}
+.form input:hover{
+	background:lightblue;
+}
+#in{
+	width:100%;
+}
+#radio input{
+	margin:2px;
+	margin-right:15px;
+}
+.form{
+	border:2px solid brown;
+	margin:10px;
+	border-radius:10px;
+}
+#content h1{
+	color:red;
+	font-weight:strong;
+	font-size:30px;
+}
+#content p{
+	font-size:100%;
+}
+#content{
+	height:100%;
+	width:50%;
+}
